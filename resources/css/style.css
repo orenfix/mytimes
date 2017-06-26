@@ -1,10 +1,150 @@
-h1 {
-  color: seagreen;
+header {
+  font-family: Verdana;
+  font-size: 14px;
   font-weight: bold;
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  z-index: 20;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
 }
-
-header a {
-  font-weight: bold;
-  font-family: Helvetica;
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin: 10px;
+  padding-left: 30px;
+  min-width: 500px;
+}
+.logo span {
+  margin: 10px;
+}
+header nav {
+  margin-right: 30px;
+  flex-shrink: 0;
+}
+nav span {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav a {
   color: black;
+}
+.container {
+  display: flex;
+  position: relative;
+  top: 82px;
+  padding: 18px 24px;
+  margin: 0 auto;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-right: 32px;
+}
+.article {
+  display: flex
+  flex-direction: column;
+}
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  margin-top: 15px;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
+.phish {
+  background-image: url("../images/img-story-main.png");
+}
+.earth {
+  background-image: url("../images/img-story-2.png");
+}
+.cameras {
+  background-image: url("../images/img-story-3.png");
+}
+.cats {
+  background-image: url("../images/img-story-1.png");
+}
+h2, h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.main h2 {
+  font-size: 40px;
+  text-align: left;
+}
+h3 {
+  color: black;
+  text-align: left;
+}
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.bites span {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0;
+  padding: 10px 30px 10px 20px;
+  border-bottom: 1px solid black;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.footer-logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+  border-right: 2px solid white;
+}
+footer nav {
+  display: inline-block;
+  margin: 0 0 20px 20px;
 }
