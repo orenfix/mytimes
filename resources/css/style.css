@@ -37,6 +37,7 @@ nav a {
 }
 .container {
   display: flex;
+  justify-content: center;
   position: relative;
   top: 82px;
   padding: 18px 24px;
