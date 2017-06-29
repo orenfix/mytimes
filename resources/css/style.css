@@ -49,7 +49,7 @@ nav a {
   flex-shrink: 0;
   margin-right: 32px;
 }
-.article {
+.article {   /* is this selector necessary? */
   display: flex
   flex-direction: column;
 }
@@ -100,6 +100,7 @@ h2, h3 {
 .main h2 {
   font-size: 40px;
   text-align: left;
+  margin-left: 20px;
 }
 h3 {
   color: black;
